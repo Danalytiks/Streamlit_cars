@@ -6,7 +6,7 @@ import plotly.express as px
 st.header("🚗 Análise de Carros Usados nos EUA")
 
 # Leitura do dataset
-car_data = pd.read_csv('vehicles_us.csv')
+df = pd.read_csv('vehicles_us.csv')
 
 # Mostrar uma prévia dos dados
 st.subheader("Prévia dos dados")
