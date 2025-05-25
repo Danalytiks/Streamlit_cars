@@ -6,11 +6,11 @@ import plotly.express as px
 st.header("🚗 Análise de Carros Usados nos EUA")
 
 # Leitura do dataset
-df = pd.read_csv('vehicle.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 # Mostrar uma prévia dos dados
 st.subheader("Prévia dos dados")
-st.dataframe(df.head())
+st.dataframe(df.dropna().head())
 
 # Caixa para histograma
 if st.checkbox("Mostrar Histograma"):
