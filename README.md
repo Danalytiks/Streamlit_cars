@@ -1,16 +1,32 @@
-# Streamlit Cars
+# Análise de Carros Usados nos EUA
 
-Este é um aplicativo web criado com Streamlit para analisar dados de anúncios de carros usados nos EUA.
+Este projeto é um aplicativo web desenvolvido com **Streamlit** que realiza uma análise interativa de dados de veículos à venda nos EUA.
 
-## Funcionalidades:
-- Exibe uma amostra do conjunto de dados
-- Botão interativo que gera um histograma da quilometragem dos veículos
-- Botão interativo com gráfico de disperção entre preço e quilometragem
-- Gráficos com Plotly Express
+## Acesse o App
 
-## 🌐 Acesse o aplicativo online
+➡️ https://streamlit-cars.onrender.com
 
-👉 https://streamlit-cars.onrender.com
+## Funcionalidades
+
+- Visualização da distribuição de quilometragem e preços
+- Gráficos interativos com filtros por modelo
+- Comparação de preço médio por modelo
+
+
+## Estrutura do projeto
+
+- `app.py` — código principal do aplicativo Streamlit
+- `vehicles_us.csv` — base de dados
+- `notebooks/EDA.ipynb` — análise exploratória inicial
+- `requirements.txt` — dependências do projeto
+- `streamlit/config.toml` — configuração para deploy no Render
+
+## Tecnologias utilizadas
+
+- Python
+- pandas
+- plotly
+- streamlit
 
 
 
