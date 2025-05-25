@@ -9,8 +9,7 @@ Este é um aplicativo web criado com Streamlit para analisar dados de anúncios 
 
 ## 🌐 Acesse o aplicativo online
 
-👉 [Abrir o app no Render](https://SEU-LINK.render.com)
-
+👉 https://streamlit-cars.onrender.com
 > *(Substitua acima pelo link real do seu app)*
 
 ## ⚙️ Como rodar localmente
